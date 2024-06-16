@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-06-16T00:34:36.740Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" version="24.2.2" etag="TRkwNKqnLOOCIG8yrLWv" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-16T00:39:02.279Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="fJ58aG_mnfydHMQdSa1o" version="24.2.2" type="github">
   <diagram name="Page-1" id="aPwwRzz-Cp2iIVJwny2F">
-    <mxGraphModel>
+    <mxGraphModel dx="1414" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gxFOmUb0hoKH4aTY9jyn-1" target="gxFOmUb0hoKH4aTY9jyn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gxFOmUb0hoKH4aTY9jyn-1" target="gxFOmUb0hoKH4aTY9jyn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gxFOmUb0hoKH4aTY9jyn-1" target="gxFOmUb0hoKH4aTY9jyn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-1" value="Handle Turn Of Chess" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gxFOmUb0hoKH4aTY9jyn-2" target="gxFOmUb0hoKH4aTY9jyn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-2" value="Input" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-4" value="Get Source and Destination Coordinates of Move" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gxFOmUb0hoKH4aTY9jyn-6" target="gxFOmUb0hoKH4aTY9jyn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-6" value="Process" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gxFOmUb0hoKH4aTY9jyn-8" target="gxFOmUb0hoKH4aTY9jyn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-8" value="Check Move Validity" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gxFOmUb0hoKH4aTY9jyn-10" target="gxFOmUb0hoKH4aTY9jyn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-10" value="Edit Board" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-12" value="Calculate AI Move" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gxFOmUb0hoKH4aTY9jyn-14" target="gxFOmUb0hoKH4aTY9jyn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-14" value="Output" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gxFOmUb0hoKH4aTY9jyn-16" target="gxFOmUb0hoKH4aTY9jyn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-16" value="Chess Log Of Moves Made So Far" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gxFOmUb0hoKH4aTY9jyn-18" value="Display of Board in Unicode" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
